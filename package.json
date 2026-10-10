@@ -1,0 +1,15 @@
+{
+  "name": "kiteai-git-attribution-sandbox",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A test-only Git commit attribution audit CLI for KiteAI integration checks.",
+  "scripts": {
+    "audit": "node src/audit.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
